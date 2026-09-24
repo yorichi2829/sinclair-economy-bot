@@ -59,3 +59,6 @@ Open:
 Dashboard access is restricted to the Discord IDs listed in `DASHBOARD_ADMIN_IDS`. The dashboard provides account/economy administration and a leaderboard view.
 
 For production deployment, put the dashboard behind HTTPS and use a strong random session secret.
+
+### Dashboard search
+Bot admins can search accounts by Discord username or Discord User ID. Search results are dashboard-admin-only.
